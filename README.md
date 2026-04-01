@@ -36,7 +36,8 @@ Predicting delivery dates is a **multiclass classification problem**. Given deta
 ```
 Delivery_prediction/
 ├── app.py                    # Flask API
-├── model_training.ipynb      # Jupyter notebook — EDA, training, evaluation
+├── data_processing2.ipynb    # Jupyter notebook — EDA, training, evaluation
+├── data_preprocessing.ipynb  # Understanding data and EDA
 ├── xgb_model.pkl             # Saved XGBoost model
 ├── column_transformer.pkl    # Saved encoder (must be used with model)
 ├── delivery_processed1.csv   # Training dataset
