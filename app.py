@@ -71,7 +71,6 @@ def predict():
 
         return jsonify({
             'predicted_day': predicted_day,
-            'weather_used':  weather,
             'top_3_days':    top_3_result
         })
 
